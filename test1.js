@@ -315,10 +315,13 @@ function mission4(newww){
     })
 }
 
-console.log(mission4( {type: "M16 Rifle",
+module.exports ={
+    mission1,
+    mission2,
+    mission3,
+    mission4,
+}
 
-    quantity: 500,
 
-    status: "Operational",}))
   
   
