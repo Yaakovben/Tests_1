@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(145, 143, 143, 0.796);
+  }
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+    
+    
+  }
+.title1{ 
+    
+    background-color:green;
+    color:white;
+    text-align: center;
+}
+
+.smoleBlock{
+    background-color:white;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.welcomee{
+    margin-left: 11px;
+}
+
+  
+
+
+  .blocks{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 12cm;
+    
+  }
+ 
+ 
+  .block{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(188, 178, 165, 0.471);
+    margin: 5px;
+    width: 25%;
+    margin-left: 40%;
+    height: 50px;
+    border-radius: 5px;
+    
+    
+    
+  }
+  .onlyBlock :hover{
+    background-color: rgba(96, 83, 64, 0.637);
+  }
+#end{
+    background-color: green;
+    text-align: center;
+    margin-top: 0%;
+    height: 1cm;
+}
+
