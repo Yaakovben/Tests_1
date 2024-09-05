@@ -271,5 +271,18 @@ let militaryUnit = {
     },
   
   };
+
+//   console.log(militaryUnit.chiefOfStaff)
+
+  function mission1(militaryUnit) {
+    myList=[]
+    myList.push(militaryUnit.commandStructure.chiefOfStaff.name)
+    
+    myList.push(militaryUnit.commandStructure.chiefOfStaff.rank)
+    myList.push(militaryUnit.commandStructure.chiefOfStaff.contact.phone)
+    return myList;
+ 
+  }
+  console.log(mission1(militaryUnit))
   
   
