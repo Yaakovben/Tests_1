@@ -284,5 +284,41 @@ let militaryUnit = {
  
   }
   console.log(mission1(militaryUnit))
+
+
+  function mission2(militaryUnit){
+    return militaryUnit.personnel.length.toString()
+
+  }
+  console.log(mission2(militaryUnit))
+
+
+
+  function mission3(neww, militaryUnit) {
+    militaryUnit.history.push({
+        eventDate: militaryUnit.currentDeployment.startDate,
+        eventDescription: militaryUnit.currentDeployment.mission
+    });
+    militaryUnit.currentDeployment = neww;
+    return militaryUnit;
+}
+
+console.log(militaryUnit.equipment.firearms)
+
+
+function mission4(newww){
+    militaryUnit.equipment.firearms.status.forEach(function(s){
+        if(s.status != newww.status)
+            {militaryUnit.equipment.firearms.push(newww) }
+        else
+            {s.quantity+=1}
+    })
+}
+
+console.log(mission4( {type: "M16 Rifle",
+
+    quantity: 500,
+
+    status: "Operational",}))
   
   
